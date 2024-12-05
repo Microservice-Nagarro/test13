@@ -1,22 +1,22 @@
-using BHF.MS.MyMicroservice.Controllers;
-using BHF.MS.MyMicroservice.Models;
-using BHF.MS.MyMicroservice.Services;
+using BHF.MS.test13.Controllers;
+using BHF.MS.test13.Models;
+using BHF.MS.test13.Services;
 using FluentAssertions;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Moq;
 
-namespace BHF.MS.MyMicroservice.Tests.Controllers
+namespace BHF.MS.test13.Tests.Controllers
 {
-    public class MyMicroserviceControllerTests
+    public class test13ControllerTests
     {
-        private readonly Mock<ILogger<MyMicroserviceController>> _loggerMock = new();
+        private readonly Mock<ILogger<test13Controller>> _loggerMock = new();
         private readonly Mock<IExampleService> _exampleServiceMock = new();
-        private readonly MyMicroserviceController _sut;
+        private readonly test13Controller _sut;
 
-        public MyMicroserviceControllerTests()
+        public test13ControllerTests()
         {
-            _sut = new MyMicroserviceController(_loggerMock.Object, _exampleServiceMock.Object);
+            _sut = new test13Controller(_loggerMock.Object, _exampleServiceMock.Object);
         }
 
         [Fact]

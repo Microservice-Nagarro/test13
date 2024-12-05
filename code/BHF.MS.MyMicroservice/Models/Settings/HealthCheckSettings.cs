@@ -1,4 +1,4 @@
-﻿namespace BHF.MS.MyMicroservice.Models.Settings
+namespace BHF.MS.test13.Models.Settings
 {
     public class HealthCheckSettings
     {

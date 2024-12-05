@@ -1,9 +1,9 @@
-﻿using BHF.MS.MyMicroservice.Database.Context;
-using BHF.MS.MyMicroservice.Database.Context.Entities;
-using BHF.MS.MyMicroservice.Database.Models.DbItem;
+using BHF.MS.test13.Database.Context;
+using BHF.MS.test13.Database.Context.Entities;
+using BHF.MS.test13.Database.Models.DbItem;
 using Microsoft.EntityFrameworkCore;
 
-namespace BHF.MS.MyMicroservice.Database.Services
+namespace BHF.MS.test13.Database.Services
 {
     public class DbItemService(CustomDbContext context) : IDbItemService
     {

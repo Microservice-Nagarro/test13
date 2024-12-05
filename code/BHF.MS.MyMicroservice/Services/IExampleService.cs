@@ -1,6 +1,6 @@
-﻿using BHF.MS.MyMicroservice.Models;
+using BHF.MS.test13.Models;
 
-namespace BHF.MS.MyMicroservice.Services
+namespace BHF.MS.test13.Services
 {
     public interface IExampleService
     {

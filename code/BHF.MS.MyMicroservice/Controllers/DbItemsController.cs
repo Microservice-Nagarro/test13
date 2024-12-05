@@ -1,8 +1,8 @@
-﻿using BHF.MS.MyMicroservice.Database.Models.DbItem;
+using BHF.MS.test13.Database.Models.DbItem;
 using Microsoft.AspNetCore.Mvc;
-using BHF.MS.MyMicroservice.Database.Services;
+using BHF.MS.test13.Database.Services;
 
-namespace BHF.MS.MyMicroservice.Controllers
+namespace BHF.MS.test13.Controllers
 {
     /// <summary>
     /// Sample REST API controller.
